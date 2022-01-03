@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/project_ecommerce?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root@123</property>
+        <mapping class="com.neo.database.entities.UserConst"/>
+        <mapping class="com.neo.database.entities.ItemSearchProps"/>
+        <mapping class="com.neo.database.entities.Sale"/>
+        <mapping class="com.neo.database.entities.DeliveryOption"/>
+        <mapping class="com.neo.database.entities.UserPermission"/>
+        <mapping class="com.neo.database.entities.ReturnOption"/>
+        <mapping class="com.neo.database.entities.ContainerItem"/>
+        <mapping class="com.neo.database.entities.Commission"/>
+        <mapping class="com.neo.database.entities.SecurityQuestion"/>
+        <mapping class="com.neo.database.entities.UserImage"/>
+        <mapping class="com.neo.database.entities.Property"/>
+        <mapping class="com.neo.database.entities.ItemReturnOption"/>
+        <mapping class="com.neo.database.entities.ItemCategory"/>
+        <mapping class="com.neo.database.entities.ItemGuaranteeOption"/>
+        <mapping class="com.neo.database.entities.Permission"/>
+        <mapping class="com.neo.database.entities.User"/>
+        <mapping class="com.neo.database.entities.CorouselImage"/>
+        <mapping class="com.neo.database.entities.Message"/>
+        <mapping class="com.neo.database.entities.Container"/>
+        <mapping class="com.neo.database.entities.ContainerType"/>
+        <mapping class="com.neo.database.entities.ItemImage"/>
+        <mapping class="com.neo.database.entities.Review"/>
+        <mapping class="com.neo.database.entities.City"/>
+        <mapping class="com.neo.database.entities.UserSecurityQuestion"/>
+        <mapping class="com.neo.database.entities.ItemDeliveryOption"/>
+        <mapping class="com.neo.database.entities.Item"/>
+        <mapping class="com.neo.database.entities.AppProperty"/>
+        <mapping class="com.neo.database.entities.UserStatus"/>
+        <mapping class="com.neo.database.entities.GuaranteeOption"/>
+        <mapping class="com.neo.database.entities.ItemProperty"/>
+        <mapping class="com.neo.database.entities.MessageSubject"/>
+        <mapping class="com.neo.database.entities.UserType"/>
+        <mapping class="com.neo.database.entities.ItemCondition"/>
+        <mapping class="com.neo.database.entities.Category"/>
+    </session-factory>
+</hibernate-configuration>

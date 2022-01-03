@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="project_ecommerce"/>
+  <table-filter match-name="item_image"/>
+  <table-filter match-name="user_type"/>
+  <table-filter match-name="corousel_image"/>
+  <table-filter match-name="container"/>
+  <table-filter match-name="user_security_question"/>
+  <table-filter match-name="property"/>
+  <table-filter match-name="item_property"/>
+  <table-filter match-name="container_item"/>
+  <table-filter match-name="message"/>
+  <table-filter match-name="item_guarantee_option"/>
+  <table-filter match-name="category"/>
+  <table-filter match-name="city"/>
+  <table-filter match-name="message_subject"/>
+  <table-filter match-name="security_question"/>
+  <table-filter match-name="commission"/>
+  <table-filter match-name="user_permission"/>
+  <table-filter match-name="user"/>
+  <table-filter match-name="app_property"/>
+  <table-filter match-name="user_image"/>
+  <table-filter match-name="item_category"/>
+  <table-filter match-name="container_type"/>
+  <table-filter match-name="guarantee_option"/>
+  <table-filter match-name="delivery_option"/>
+  <table-filter match-name="permission"/>
+  <table-filter match-name="item"/>
+  <table-filter match-name="user_status"/>
+  <table-filter match-name="return_option"/>
+  <table-filter match-name="item_delivery_option"/>
+  <table-filter match-name="item_return_option"/>
+  <table-filter match-name="review"/>
+  <table-filter match-name="item_condition"/>
+</hibernate-reverse-engineering>
